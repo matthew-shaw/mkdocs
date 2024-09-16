@@ -28,7 +28,7 @@ gitpython==3.1.43
     #   mkdocs-git-revision-date-localized-plugin
 htmlmin2==0.1.13
     # via mkdocs-minify-plugin
-idna==3.8
+idna==3.10
     # via requests
 jinja2==3.1.4
     # via
@@ -73,7 +73,7 @@ paginate==0.5.7
     # via mkdocs-material
 pathspec==0.12.1
     # via mkdocs
-platformdirs==4.3.2
+platformdirs==4.3.3
     # via mkdocs-get-deps
 pygments==2.18.0
     # via mkdocs-material
