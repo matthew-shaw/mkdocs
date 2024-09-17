@@ -1,4 +1,6 @@
 site_name: MkDocs Template
+site_description: MkDocs Template
+site_author: Matthew Shaw
 site_url: https://matthew-shaw.github.io/mkdocs
 copyright: Copyright &copy; 2024 Matthew Shaw
 repo_url: https://github.com/matthew-shaw/mkdocs
