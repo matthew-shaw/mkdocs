@@ -8,6 +8,12 @@ site_url: https://matthew-shaw.github.io/mkdocs
 watch:
   - includes
 
+validation:
+  absolute_links: warn
+  anchors: warn
+  omitted_files: warn
+  unrecognized_links: warn
+
 nav:
   - index.md
   - tags.md
