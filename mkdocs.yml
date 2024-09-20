@@ -17,6 +17,8 @@ validation:
 nav:
   - index.md
   - tags.md
+  - Blog:
+     - blog/index.md
 
 theme:
   name: material
@@ -44,6 +46,7 @@ theme:
     - content.action.edit
     - content.action.view
     - navigation.footer
+    - navigation.indexes
     - navigation.sections
     - navigation.top
     - search.highlight
