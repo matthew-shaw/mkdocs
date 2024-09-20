@@ -54,7 +54,8 @@ theme:
     - search.suggest
 
 plugins:
-  - blog
+  - blog:
+      blog_toc: true
   - git-committers:
       repository: matthew-shaw/mkdocs
       branch: main

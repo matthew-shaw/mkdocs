@@ -1,6 +1,15 @@
 ---
 date:
   created: 2023-12-31
+  updated: 2024-01-02
+authors:
+  - team
+categories:
+  - Holidays
+tags:
+  - new year
+  - hogmanay
+  - festive season
 ---
 
 # Happy new years eve!
