@@ -2,7 +2,7 @@ copyright: Copyright &copy; 2024 Matthew Shaw
 edit_uri: edit/main/docs/
 repo_url: https://github.com/matthew-shaw/mkdocs
 site_author: Matthew Shaw
-site_description: MkDocs Template
+site_description: A pre-configured MkDocs Material site template
 site_name: MkDocs Template
 site_url: https://matthew-shaw.github.io/mkdocs
 watch:
@@ -18,7 +18,7 @@ nav:
   - index.md
   - tags.md
   - Blog:
-     - blog/index.md
+      - blog/index.md
 
 theme:
   name: material
@@ -66,6 +66,11 @@ plugins:
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
+  - rss:
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
   - search
   - tags:
       tags_file: tags.md
@@ -81,11 +86,11 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: fontawesome/brands/github 
+    - icon: fontawesome/brands/github
       link: https://github.com/matthew-shaw
-    - icon: fontawesome/brands/linkedin 
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/matthew-shaw
-    - icon: fontawesome/brands/mastodon 
+    - icon: fontawesome/brands/mastodon
       link: https://mastodon.me.uk/@mash
-    - icon: fontawesome/brands/x-twitter 
+    - icon: fontawesome/brands/x-twitter
       link: https://x.com/MattShaw85
