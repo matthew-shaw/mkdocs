@@ -15,8 +15,9 @@ validation:
   unrecognized_links: warn
 
 nav:
-  - index.md
-  - tags.md
+  - Home:
+    - index.md
+    - tags.md
   - Blog:
       - blog/index.md
 
@@ -50,6 +51,7 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - search.highlight
     - search.share
