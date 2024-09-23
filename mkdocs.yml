@@ -47,6 +47,8 @@ theme:
     - content.action.view
     - navigation.footer
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.sections
     - navigation.top
     - search.highlight
