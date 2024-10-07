@@ -16,8 +16,8 @@ validation:
 
 nav:
   - Home:
-    - index.md
-    - tags.md
+      - index.md
+      - tags.md
   - Blog:
       - blog/index.md
 
@@ -88,7 +88,11 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra:
   social:
