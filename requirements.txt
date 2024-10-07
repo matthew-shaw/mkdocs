@@ -73,7 +73,7 @@ mkdocs==1.6.1
     #   mkdocs-rss-plugin
 mkdocs-get-deps==0.2.0
     # via mkdocs
-mkdocs-git-committers-plugin-2==2.3.0
+mkdocs-git-committers-plugin-2==2.4.1
     # via -r requirements.in
 mkdocs-git-revision-date-localized-plugin==1.2.9
     # via -r requirements.in
@@ -103,7 +103,7 @@ pycparser==2.22
     # via cffi
 pygments==2.18.0
     # via mkdocs-material
-pymdown-extensions==10.11.1
+pymdown-extensions==10.11.2
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via ghp-import
