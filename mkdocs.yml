@@ -68,9 +68,12 @@ plugins:
       enable_creation_date: true
   - minify:
       minify_html: true
+      minify_js: true
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
+      js_files:
+        - javascripts/tablesort.js
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
@@ -84,7 +87,11 @@ plugins:
 markdown_extensions:
   - abbr
   - admonition
+  - attr_list
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
@@ -93,9 +100,12 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
 
 extra:
   social:
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/mash85.bsky.social
     - icon: fontawesome/brands/github
       link: https://github.com/matthew-shaw
     - icon: fontawesome/brands/linkedin
@@ -104,3 +114,7 @@ extra:
       link: https://mastodon.me.uk/@mash
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/MattShaw85
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
