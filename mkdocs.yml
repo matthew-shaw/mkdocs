@@ -76,6 +76,7 @@ plugins:
       cache_safe: true
       js_files:
         - javascripts/tablesort.js
+  - privacy
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
