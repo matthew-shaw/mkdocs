@@ -22,8 +22,22 @@ nav:
       - blog/index.md
 
 theme:
-  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
   language: en
+  name: material
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -44,20 +58,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  features:
-    - content.action.edit
-    - content.action.view
-    - content.tooltips
-    - navigation.footer
-    - navigation.indexes
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.sections
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
-    - search.share
-    - search.suggest
 
 plugins:
   - blog:
