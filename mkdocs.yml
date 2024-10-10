@@ -110,14 +110,19 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/bluesky
+      name: Bluesky
       link: https://bsky.app/profile/mash85.bsky.social
     - icon: fontawesome/brands/github
+      name: GitHub
       link: https://github.com/matthew-shaw
     - icon: fontawesome/brands/linkedin
+      name: LinkedIn
       link: https://www.linkedin.com/in/matthew-shaw
     - icon: fontawesome/brands/mastodon
+      name: Mastodon
       link: https://mastodon.me.uk/@mash
     - icon: fontawesome/brands/x-twitter
+      name: X
       link: https://x.com/MattShaw85
 
 extra_javascript:
