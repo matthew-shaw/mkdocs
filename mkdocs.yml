@@ -22,6 +22,8 @@ nav:
       - blog/index.md
 
 theme:
+  icon:
+    repo: fontawesome/brands/github
   features:
     - content.action.edit
     - content.action.view
