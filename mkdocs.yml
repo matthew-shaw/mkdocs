@@ -1,5 +1,6 @@
-copyright: Copyright &copy; 2024 Matthew Shaw
+copyright: "&copy; 2024 Matthew Shaw. All rights reserved."
 edit_uri: edit/main/docs/
+repo_name: "matthew-shaw/mkdocs"
 repo_url: https://github.com/matthew-shaw/mkdocs
 site_author: Matthew Shaw
 site_description: A pre-configured MkDocs Material site template
